@@ -25,6 +25,10 @@ dependencies {
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
+    compile 'org.apache.commons:commons-lang3:3.0'
+    compile 'org.apache.commons:commons-compress:1.14'
+    compile 'com.google.guava:guava:28.2-jre'
+    compile group: 'org.openkoreantext' , name : 'open-korean-text' , version: '2.2.0'
 }
 
 test {
